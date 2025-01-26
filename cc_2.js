@@ -25,3 +25,14 @@ employees.department = "HR"; // Update department
 employees.position = "Manager"; // Add a new property
 // Display the updated employee record
 console.log("Updated employee record: ", employees);
+
+// Task 4 - Customer Database
+let customers = [
+   { name: "Alice", email: "alice@example.com", purchaseAmount: 200 },
+   { name: "Bob", email: "bob@example.com", purchaseAmount: 150 },
+   { name: "Charlie", email: "charlie@example", purchaseAmount: 100 },
+ ]; 
+ // Update the purchase amount of the second customer
+customers.push({ name: "David", email: "david@example.com", purchaseAmount: 300 }); // Add a new customer
+// Display the updated customer list
+console.log("Customer list: ", customers);
