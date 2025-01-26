@@ -36,3 +36,17 @@ let customers = [
 customers.push({ name: "David", email: "david@example.com", purchaseAmount: 300 }); // Add a new customer
 // Display the updated customer list
 console.log("Customer list: ", customers);
+
+// Task 5 - Order Proccessing System
+let order = {
+    orderId: "12345",
+    customerName: "Alice",
+    amount: 200,
+    calculateTax: function() {
+        return this.amount * 0.05; // 5% tax
+    },
+};
+// Display the order details and tax amount
+console.log("Order Details: ", order);
+// Calculate and display the tax amount
+console.log("Tax amount: ", order.calculateTax());
