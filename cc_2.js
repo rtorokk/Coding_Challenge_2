@@ -13,3 +13,15 @@ let average = total / scores.length;
 // Display the updated scores and average
 console.log("Updated scores: ", scores);
 console.log("Average score: ", average);
+
+// Task 3 - Employee Records
+let employees = {
+    name: "John Doe",
+    age : 30,
+    department: "IT",
+    isActive: true
+};
+employees.department = "HR"; // Update department
+employees.position = "Manager"; // Add a new property
+// Display the updated employee record
+console.log("Updated employee record: ", employees);
